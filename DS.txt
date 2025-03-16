@@ -1,0 +1,18 @@
+That’s a solid plan! By implementing these data structures from scratch, you’ll gain a deeper understanding of their internal workings and operations. Here’s a structured way to approach it:
+
+### **Step-by-Step Plan:**
+1. **Singly Linked List**
+   - Implement `addFirst()`, `addLast()`, `removeFirst()`, `removeLast()`, `search()`, and `display()`.
+
+2. **Doubly Linked List**
+   - Implement `addFirst()`, `addLast()`, `removeFirst()`, `removeLast()`, `search()`, and `display()`.
+
+3. **Stack (Using Linked List and Array)**
+   - Implement `push()`, `pop()`, `peek()`, and `isEmpty()`.
+
+4. **Queue (Using Linked List and Array)**
+   - Implement `enqueue()`, `dequeue()`, `peek()`, and `isEmpty()`.
+
+5. **Deque (Using Doubly Linked List)**
+   - Implement `addFront()`, `addRear()`, `removeFront()`, `removeRear()`, `peekFront()`, `peekRear()`, and `isEmpty()`.
+
