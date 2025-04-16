@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class FunctionalInterfaceTester {
+public class FITester {
 
     public static void main(String[] args){
         Greetings greetings = new Greetings() {
