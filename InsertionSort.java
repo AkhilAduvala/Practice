@@ -19,9 +19,9 @@ public class InsertionSort {
 
     public static void main(String[] args){
         int[] a = {1,7,6,8,2,3,4};
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime(); //using nanoTime() instead of currentTimeMillis() as its small dataset
         sort(a);
-        long stop = System.currentTimeMillis();
+        long stop = System.nanoTime(); //using nanoTime() instead of currentTimeMillis() as its small dataset
         System.out.println("Here is array sorted using insertion sort");
         for(int j : a){
             System.out.println(j);
