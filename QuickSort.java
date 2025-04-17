@@ -17,14 +17,20 @@ public class QuickSort {
         for(int j = low; j < high; j++){
             if(a[j] < pivot){
                 i++;
-                int temp = a[j];
-                a[j] = a[i];
-                a[i] = temp;
+                // we dont need to swap if the i and j are same
+                if(i != j){
+                    int temp = a[j];
+                    a[j] = a[i];
+                    a[i] = temp;
+                }
             }
         }
         //placing the pivot in the correct position  (all elements left < pivot, right > pivot)
-        a[high] = a[++i];
-        a[i] = pivot;
+        if(high != i+1){ //dont need to swap if high is already in correct place(pivot)
+            a[high] = a[++i];
+            a[i] = pivot;
+        }
+
 
         //elements before the pivotIndex (i) will be smaller than opivot while to the right are greater
         return i;
